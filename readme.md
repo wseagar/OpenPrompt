@@ -5,6 +5,7 @@
 [downloads badge]: https://img.shields.io/npm/dw/promptapi
 [npm]: https://www.npmjs.com/package/promptapi
 [license]: https://github.com/wseagar/promptapi/blob/main/js/LICENSE
+[Nice for Tea Protocol]
 
 PromptAPI is an open-source, language-agnostic JSON-based schema format for defining and working with large language model (LLM) prompts. It features a Typescript implementation in its repository, but the format is designed to be adaptable across various programming languages. PromptAPI addresses challenges in working with large language models by improving output parsing/validation, enabling prompt sharing/versioning, and minimizing code complexity.
 
@@ -134,7 +135,7 @@ const prompt = spec.compile({
 console.log(prompt);
 ```
 
-Heres the compiled prompt
+Here is the compiled prompt
 
 ```
 Please analyze the sentiment expressed in the following text and rank it on a integer scale between 0-10. Explain your reasoning based on the words and phrases used in the text.
@@ -213,7 +214,7 @@ The raw LLM response
 
 ### Why did I make this?
 
-PromptAPI was created to address several challenges associated with working with large language models (LLMs):
+PromptAPI was created to address several challenges associated with working with large language models (LLMs) which are difficult sometimes:
 
 - **Improve output validation/parsing**: LLMs can generate outputs that are difficult to parse. PromptAPI facilitates more structured and easily parsable outputs.
 
